@@ -17,17 +17,14 @@ export function EventSection() {
 
   return (
     <div className="mx-auto flex w-[90%] items-center gap-6">
-      
-      <GradientButton onClick={prev}>
-        ◄
-      </GradientButton>
+      <GradientButton onClick={prev}>◄</GradientButton>
 
-      <EventCard event={eventsData[currentEventIndex]} />
+      <div className="flex-1 min-w-0">
+        <EventCard event={eventsData[currentEventIndex]} />
+      </div>
 
-      <GradientButton onClick={next}>
-        ►
-      </GradientButton>
-
+      <GradientButton onClick={next}>►</GradientButton>
     </div>
+
   );
 }

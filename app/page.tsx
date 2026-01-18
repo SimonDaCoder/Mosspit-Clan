@@ -7,9 +7,14 @@ import { EventSection } from "../components/events/event-section";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black font-sans">
+    <div
+      className="flex min-h-screen h-[300vh] flex-col bg-zinc-50 dark:bg-black font-sans"
+      style={{
+        background: `radial-gradient(circle at left center, rgba(16, 185, 129, 0.6), rgba(16, 185, 129, 0.1) 70%, transparent 100%)`
+      }}
+      >
       <Header />
-      <main className="flex flex-1 flex-col items-center justify-center px-20 text-center full-w">
+      <main className="flex flex-1 flex-col items-center justify-top px-20 text-center full-w py-10 gap-20">
         <EventSection />
       </main>
     </div>
