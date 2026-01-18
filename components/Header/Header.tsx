@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="menu">
-      <a href="#" className="link">
+      <a href="#home" className="link">
         <span className="link-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
             <rect width="256" height="256" fill="none" />
@@ -21,7 +21,7 @@ export default function Header() {
         <span className="link-title">Home</span>
       </a>
 
-      <a href="#" className="link">
+      <a href="#socials" className="link">
         <span className="link-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
             <rect width="256" height="256" fill="none" />
@@ -57,7 +57,7 @@ export default function Header() {
         <span className="link-title">Games</span>
       </a>
 
-      <a href="#" className="link">
+      <a href="#events" className="link">
         <span className="link-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
             <rect width="256" height="256" fill="none" />
@@ -76,7 +76,7 @@ export default function Header() {
         <span className="link-title">Chat</span>
       </a>
 
-      <a href="#" className="link">
+      <a href="#members" className="link">
         <span className="link-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
             <rect width="256" height="256" fill="none" />

@@ -15,7 +15,18 @@ export default function Home() {
       >
       <Header />
       <main className="flex flex-1 flex-col items-center justify-top px-20 text-center full-w py-10 gap-20">
-        <EventSection />
+        <section className="w-full" id="home">
+
+        </section>
+        <section className="w-full" id="socials">
+
+        </section>
+        <section className="w-full" id="events">
+          <EventSection />
+        </section>
+        <section className="w-full" id="members">
+
+        </section>
       </main>
     </div>
   );
