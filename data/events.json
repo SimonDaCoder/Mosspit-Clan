@@ -1,52 +1,99 @@
 [
   {
-    "name": "Event 1",
+    "name": "7 Tage Creative",
     "imageMain": "/images/1.png",
-    "imageLeft": "/images/1.png",
-    "imageRight": "/images/1.png",
+    "image1": "/images/1.png",
+    "image2": "/images/1.png",
+    "image3": "/images/1.png",
     "description": "Beschreibung von Event 1"
   },
   {
-    "name": "Event 2",
+    "name": "Zivilisation",
     "imageMain": "/images/2.png",
-    "imageLeft": "/images/2.png",
-    "imageRight": "/images/2.png",
+    "image1": "/images/2.png",
+    "image2": "/images/2.png",
+    "image3": "/images/2.png",
     "description": "Beschreibung von Event 2"
   },
   {
-    "name": "Event 3",
+    "name": "Ameisenglas",
     "imageMain": "/images/3.png",
-    "imageLeft": "/images/3.png",
-    "imageRight": "/images/3.png",
+    "image1": "/images/3.png",
+    "image2": "/images/3.png",
+    "image3": "/images/3.png",
     "description": "Beschreibung von Event 3"
   },
   {
-    "name": "Event 4",
+    "name": "Tilted World",
     "imageMain": "/images/4.png",
-    "imageLeft": "/images/4.png",
-    "imageRight": "/images/4.png",
+    "image1": "/images/4.png",
+    "image2": "/images/4.png",
+    "image3": "/images/4.png",
     "description": "Beschreibung von Event 4"
   },
   {
-    "name": "Event 5",
+    "name": "Unendliches Baulimit",
     "imageMain": "/images/5.png",
-    "imageLeft": "/images/5.png",
-    "imageRight": "/images/5.png",
+    "image1": "/images/5.png",
+    "image2": "/images/5.png",
+    "image3": "/images/5.png",
     "description": "Beschreibung von Event 5"
   },
   {
-    "name": "Event 6",
+    "name": "7 Tage Creative",
     "imageMain": "/images/6.png",
-    "imageLeft": "/images/6.png",
-    "imageRight": "/images/6.png",
+    "image1": "/images/6.png",
+    "image2": "/images/6.png",
+    "image3": "/images/6.png",
     "description": "Beschreibung von Event 6"
   },
   {
-    "name": "Event 7",
+    "name": "Only Nether",
     "imageMain": "/images/7.jpg",
-    "imageLeft": "/images/7.jpg",
-    "imageRight": "/images/7.jpg",
+    "image1": "/images/7.jpg",
+    "image2": "/images/7.jpg",
+    "image3": "/images/7.jpg",
     "description": "Beschreibung von Event 7"
+  },
+  {
+    "name": "CA Würfel Bau",
+    "imageMain": "/images/8.png",
+    "image1": "/images/8.png",
+    "image2": "/images/8.png",
+    "image3": "/images/8.png",
+    "description": "Beschreibung von Event 8"
+  },
+  {
+    "name": "End Event",
+    "imageMain": "/images/9.png",
+    "image1": "/images/9.png",
+    "image2": "/images/9.png",
+    "image3": "/images/9.png",
+    "description": "Beschreibung von Event 9"
+  },
+  {
+    "name": "Hardcore Event",
+    "imageMain": "/images/10.png",
+    "image1": "/images/10.png",
+    "image2": "/images/10.png",
+    "image3": "/images/10.png",
+    "description": "Beschreibung von Event 10"
+  },
+  {
+    "name": "Randomizer Welt",
+    "imageMain": "/images/11.png",
+    "image1": "/images/11.png",
+    "image2": "/images/11.png",
+    "image3": "/images/11.png",
+    "description": "Beschreibung von Event 11"
+  },
+  {
+    "name": "Wüsten Event",
+    "imageMain": "/images/12.png",
+    "image1": "/images/12.png",
+    "image2": "/images/12.png",
+    "image3": "/images/12.png",
+    "description": "Beschreibung von Event 12"
   }
 
 ]
