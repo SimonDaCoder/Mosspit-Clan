@@ -1,14 +1,33 @@
+"use client";
+
+import { useState } from "react";
 import { EventCard } from "./event-card";
 import eventsData from "@/data/events.json";
-
+import { GradientButton } from "../gradient-button";
 
 export function EventSection() {
-  var currentEventIndex = 0; // Change this index to display a different event
+  const [currentEventIndex, setCurrentEventIndex] = useState(0);
+  const total = eventsData.length;
+
+  const prev = () =>
+    setCurrentEventIndex((i) => (i - 1 + total) % total);
+
+  const next = () =>
+    setCurrentEventIndex((i) => (i + 1) % total);
+
   return (
-    <div className="flex items-space-between gap-4 w-[90%]">
-      <button className="">asd</button>
+    <div className="mx-auto flex w-[90%] items-center gap-6">
+      
+      <GradientButton onClick={prev}>
+        ◄
+      </GradientButton>
+
       <EventCard event={eventsData[currentEventIndex]} />
-      <button >next</button>
+
+      <GradientButton onClick={next}>
+        ►
+      </GradientButton>
+
     </div>
   );
 }
