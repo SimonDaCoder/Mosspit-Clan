@@ -1,11 +1,11 @@
 [
   {
-    "name": "7 Tage Creative",
-    "imageMain": "/images/1.png",
-    "image1": "/images/1.png",
-    "image2": "/images/1.png",
-    "image3": "/images/1.png",
-    "description": "Beschreibung von Event 1"
+    "name": "Limitless Heights",
+    "imageMain": "/images/events/LimitlessHeights/großerTurm.png",
+    "image1": "/images/events/LimitlessHeights/Luftschiff.png",
+    "image2": "/images/events/LimitlessHeights/TurmVonUnten.png",
+    "image3": "/images/events/LimitlessHeights/ClanMitCast.png",
+    "description": "Bei diesem Event spielt Höhe keine Rolle. Von gigantischen Türmen bis hin zu schwebenden Städten, welche scheinbar ins Unendliche wachsen - der Kreativität sind keine Grenzen gesetzt. Doch wie hoch kann man wirklich bauen? Finde es heraus!"
   },
   {
     "name": "Zivilisation",
@@ -25,11 +25,11 @@
   },
   {
     "name": "Tilted World",
-    "imageMain": "/images/4.png",
+    "imageMain": "/images/events/TiltedWorld/tiltetOutpost.png",
     "image1": "/images/4.png",
     "image2": "/images/4.png",
     "image3": "/images/4.png",
-    "description": "Beschreibung von Event 4"
+    "description": "In dem Tilted World Event findet ihr euch in einer Welt wieder, welche um 45 Grad gedreht ist. Bildet Allianzen, baut gedrehte Häuser und erkundet die Höhlen, in denen nichts mehr so ist wie sonst!"
   },
   {
     "name": "Unendliches Baulimit",
@@ -38,14 +38,6 @@
     "image2": "/images/5.png",
     "image3": "/images/5.png",
     "description": "Beschreibung von Event 5"
-  },
-  {
-    "name": "7 Tage Creative",
-    "imageMain": "/images/6.png",
-    "image1": "/images/6.png",
-    "image2": "/images/6.png",
-    "image3": "/images/6.png",
-    "description": "Beschreibung von Event 6"
   },
   {
     "name": "Only Nether",
@@ -85,10 +77,10 @@
     "image1": "/images/11.png",
     "image2": "/images/11.png",
     "image3": "/images/11.png",
-    "description": "Beschreibung von Event 11"
+    "description": "Beim Block Roulette Event ist alles anders! Wenn du Blöcke abbaust oder Kreaturen besiegst, erhältst du zufällige Gegenstände anstelle der normalen Beute. Auch Truhen und andere Behälter halten Überraschungen für dich bereit. Mach dich bereit für unvorhersehbare Abenteuer!"
   },
   {
-    "name": "Wüsten Eventaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "name": "Wüsten Event",
     "imageMain": "/images/12.png",
     "image1": "/images/12.png",
     "image2": "/images/12.png",

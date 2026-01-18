@@ -1,3 +1,14 @@
-html, main {
+html,
+main {
   scroll-behavior: smooth ! important;
+}
+
+.costum-bg-pattern {
+  background: radial-gradient(circle at left center, rgba(16, 185, 129, 0.3), rgba(16, 185, 129, 0.05) 70%, transparent 100%)
+}
+
+@media (prefers-color-scheme: dark) {
+  .costum-bg-pattern {
+    background: radial-gradient(circle at left center, rgba(16, 185, 129, 0.6), rgba(16, 185, 129, 0.1) 70%, transparent 100%)
+  }
 }
