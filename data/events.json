@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Event 1",
+    "imageMain": "/images/1.png",
+    "imageLeft": "/images/1.png",
+    "imageRight": "/images/1.png",
+    "description": "Beschreibung von Event 1"
+  },
+  {
+    "name": "Event 2",
+    "imageMain": "/images/2.png",
+    "imageLeft": "/images/2.png",
+    "imageRight": "/images/2.png",
+    "description": "Beschreibung von Event 2"
+  },
+  {
+    "name": "Event 3",
+    "imageMain": "/images/3.png",
+    "imageLeft": "/images/3.png",
+    "imageRight": "/images/3.png",
+    "description": "Beschreibung von Event 3"
+  },
+  {
+    "name": "Event 4",
+    "imageMain": "/images/4.png",
+    "imageLeft": "/images/4.png",
+    "imageRight": "/images/4.png",
+    "description": "Beschreibung von Event 4"
+  },
+  {
+    "name": "Event 5",
+    "imageMain": "/images/5.png",
+    "imageLeft": "/images/5.png",
+    "imageRight": "/images/5.png",
+    "description": "Beschreibung von Event 5"
+  },
+  {
+    "name": "Event 6",
+    "imageMain": "/images/6.png",
+    "imageLeft": "/images/6.png",
+    "imageRight": "/images/6.png",
+    "description": "Beschreibung von Event 6"
+  },
+  {
+    "name": "Event 7",
+    "imageMain": "/images/7.jpg",
+    "imageLeft": "/images/7.jpg",
+    "imageRight": "/images/7.jpg",
+    "description": "Beschreibung von Event 7"
+  }
+
+]
