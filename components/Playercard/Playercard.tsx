@@ -1,6 +1,5 @@
 import React from "react";
 
-
 interface Player {
   name: string;
   role: string;
@@ -8,34 +7,34 @@ interface Player {
 }
 
 export const PlayerCard = ({ player }: { player: Player }) => {
-
   return (
-    <div className="relative w-[12vw] aspect-[20/22] rounded-2xl p-[2px]">
-      {/* Gradient Border */}
-      <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-emerald-400 via-emerald-300 to-emerald-100/20" />
+    <div className="relative w-[12vw] rounded-2xl p-[1px]">
+      {/* Subtle Gradient Border */}
+      <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-emerald-300/40 via-emerald-200/20 to-transparent" />
 
-      {/* Card Content */}
-      <div className="relative rounded-2xl bg-white/95 p-4 shadow-[0_0_25px_5px_rgba(16,185,129,0.3)] backdrop-blur-md
-                  w-full h-full
-                  dark:bg-zinc-900/95
-                  transition-shadow duration-300 ease-out
-                  hover:shadow-[0_0_30px_10px_rgba(16,185,129,0.5)]
-                  flex flex-col items-center overflow-hidden">
+      {/* Card Content with Hover Shake */}
+      <div className="relative rounded-2xl bg-white/90 p-3 shadow-sm backdrop-blur-sm
+                      w-full
+                      dark:bg-zinc-900/90
+                      transition-transform duration-200 ease-out
+                      hover:rotate-[1deg] hover:-translate-x-0.5 hover:-translate-y-0.5
+                      flex flex-col items-center overflow-hidden">
 
-        {/* Player Skin */}
-        <img
-          src={player.skin}
-          alt={`${player.name}'s Skin`}
-          className="w-full h-[70%] object-cover rounded-2xl mb-3"
-        />
+        {/* Player Skin (square + shadow) */}
+        <div className="w-full aspect-square mb-3 relative shadow-md">
+          <img
+            src={player.skin}
+            alt={`${player.name}'s Skin`}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
 
         {/* Player Info */}
         <div className="text-center">
-          <p className="text-emerald-400 font-semibold text-lg drop-shadow-md">{player.name}</p>
+          <p className="text-emerald-400 font-semibold text-base">{player.name}</p>
           <p className="text-zinc-400 text-sm mt-1">{player.role}</p>
         </div>
       </div>
     </div>
-
   );
 };
