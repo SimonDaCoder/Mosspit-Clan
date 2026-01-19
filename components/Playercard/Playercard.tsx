@@ -12,13 +12,13 @@ export const PlayerCard = ({ player }: { player: Player }) => {
   const skin = `https://mc-heads.net/avatar/${player.igname}/100`;
 
   return (
-    <div className="relative w-[10vw] rounded-2xl p-[1px]">
+    <div className="relative w-[8vw] rounded-2xl p-[1px]">
       {/* Subtle Gradient Border */}
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-emerald-300/40 via-emerald-200/20 to-transparent" />
 
       {/* Card Content with Hover Shake */}
       <div className="relative rounded-2xl bg-white/90 p-3 shadow-sm backdrop-blur-sm
-                      w-full
+                      w-full h-full
                       dark:bg-zinc-900/90
                       transition-transform duration-200 ease-out
                       hover:rotate-[1deg] hover:-translate-x-0.5 hover:-translate-y-0.5
