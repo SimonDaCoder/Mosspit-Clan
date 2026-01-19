@@ -3,7 +3,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="menu">
+    <div className="menu w-[60%] flex justify-center items-center gap-8 p-4 bg-white/90">
       <a href="#home" className="link">
         <span className="link-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">

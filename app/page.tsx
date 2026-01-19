@@ -9,12 +9,13 @@ export default function Home() {
   return (
     <div
       className="flex min-h-screen h-[300vh] flex-col bg-zinc-50 dark:bg-black font-sans costum-bg-pattern"
-      >
-      <Header />
-      <main className="flex flex-1 flex-col items-center justify-top px-20 text-center full-w py-10 gap-20">
-        <section className="w-full" id="home">
+    >        
+      <section className="w-full flex flex-col items-center" id="home">
+        <Header />
+      </section>
 
-        </section>
+      <main className="flex flex-1 flex-col items-center justify-top px-20 text-center full-w py-10 gap-20">
+
         <section className="w-full" id="socials">
 
         </section>

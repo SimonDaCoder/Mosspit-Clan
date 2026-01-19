@@ -12,3 +12,12 @@ main {
     background: radial-gradient(circle at left center, rgba(16, 185, 129, 0.6), rgba(16, 185, 129, 0.1) 70%, transparent 100%)
   }
 }
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+section#home {
+  padding-top: 0;
+}
