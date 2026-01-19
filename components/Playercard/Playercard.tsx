@@ -8,7 +8,7 @@ interface Player {
 
 export const PlayerCard = ({ player }: { player: Player }) => {
   return (
-    <div className="relative w-[12vw] rounded-2xl p-[1px]">
+    <div className="relative w-[10vw] rounded-2xl p-[1px]">
       {/* Subtle Gradient Border */}
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-emerald-300/40 via-emerald-200/20 to-transparent" />
 
