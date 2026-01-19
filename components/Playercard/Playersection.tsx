@@ -19,11 +19,11 @@ export const PlayerSection = () => {
 
         return (
           <div key={group.id} className="flex flex-col gap-4">
-            <h2 className="text-lg font-semibold text-emerald-400">
+            <h2 className="text-xl font-semibold text-emerald-400">
               {group.label}
             </h2>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 justify-center">
               {groupPlayers.map((player) => (
                 <PlayerCard
                   key={player.igname}
