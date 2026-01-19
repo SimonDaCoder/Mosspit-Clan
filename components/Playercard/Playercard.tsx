@@ -2,11 +2,15 @@ import React from "react";
 
 interface Player {
   name: string;
+  igname: string;
   role: string;
-  skin: string;
 }
 
+
 export const PlayerCard = ({ player }: { player: Player }) => {
+
+  const skin = `https://mc-heads.net/avatar/${player.igname}/100`;
+
   return (
     <div className="relative w-[10vw] rounded-2xl p-[1px]">
       {/* Subtle Gradient Border */}
@@ -23,7 +27,7 @@ export const PlayerCard = ({ player }: { player: Player }) => {
         {/* Player Skin (square + shadow) */}
         <div className="w-full aspect-square mb-3 relative shadow-md">
           <img
-            src={player.skin}
+            src={skin}
             alt={`${player.name}'s Skin`}
             className="w-full h-full object-cover rounded-2xl"
           />

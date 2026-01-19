@@ -26,8 +26,8 @@ export default function Home() {
           <PlayerCard
             player={{
               name: "Simonheimer",
-              role: "Admin",
-              skin: "/images/player/Simonheimer.png",
+              igname: "SimonLP_yt",
+              role: "Website Developer"
             }}
           />
         </section>
