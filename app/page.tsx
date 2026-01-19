@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "../components/Header/Header";
-import { GalleryCarousel } from "../components/gallery-carousel/gallery-carousel";
+import { PlayerCard } from "@/components/Playercard/Playercard";
 import { EventCard } from "../components/events/event-card";
 import eventsData from "../data/events.json";
 import { EventSection } from "../components/events/event-section";
@@ -23,7 +23,13 @@ export default function Home() {
           <EventSection />
         </section>
         <section className="w-full" id="members">
-
+          <PlayerCard
+            player={{
+              name: "Simonheimer",
+              role: "Admin",
+              skin: "/images/player/Simonheimer.png",
+            }}
+          />
         </section>
       </main>
     </div>
