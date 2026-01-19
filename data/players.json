@@ -1,7 +1,74 @@
-[
-  {
-    "name": "Simon LP",
-    "igname": "SimonLP_yt",
-    "role": "Website Developer"
-  }
-]
+{
+  "groups": [
+    {
+      "id": "staff",
+      "label": "Team",
+      "order": 1
+    },
+    {
+      "id": "official",
+      "label": "Offiziere",
+      "order": 2
+    },
+    {
+      "id": "specialmember",
+      "label": "Besondere Bürger",
+      "order": 3
+    },
+    {
+      "id": "member",
+      "label": "Bürger",
+      "order": 4
+    }
+  ],
+  "players": [
+    {
+      "name": "Simon LP",
+      "igname": "SimonLP_yt",
+      "role": "Website Dev",
+      "group": "member"
+    },
+    {
+      "name": "Allotox",
+      "igname": "Allotox",
+      "role": "Anführer",
+      "group": "staff"
+    },
+    {
+      "name": "Tatatuck",
+      "igname": "Tatatuck",
+      "role": "Anführer",
+      "group": "staff"
+    },
+    {
+      "name": "Thanis747",
+      "igname": "Thanis747",
+      "role": "Anführer",
+      "group": "staff"
+    },
+    {
+      "name": "Beule_TV",
+      "igname": "Beule_TV",
+      "role": "Offizier",
+      "group": "official"
+    },
+    {
+      "name": "Famigo",
+      "igname": "Famigo",
+      "role": "Offizier",
+      "group": "official"
+    },
+    {
+      "name": "Ownystuck",
+      "igname": "Ownystuck",
+      "role": "Offizier",
+      "group": "official"
+    },
+    {
+      "name": "ConCrafter_Fan",
+      "igname": "ConCrafter_Fan",
+      "role": "Stream Awards Gewinner",
+      "group": "member"
+    }
+  ]
+}

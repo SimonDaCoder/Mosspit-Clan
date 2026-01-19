@@ -4,6 +4,7 @@ import { PlayerCard } from "@/components/Playercard/Playercard";
 import { EventCard } from "../components/events/event-card";
 import eventsData from "../data/events.json";
 import { EventSection } from "../components/events/event-section";
+import { PlayerSection } from "@/components/Playercard/Playersection";
 
 export default function Home() {
   return (
@@ -23,12 +24,7 @@ export default function Home() {
           <EventSection />
         </section>
         <section className="w-full" id="members">
-          <PlayerCard
-            player={{
-              name: "Simonheimer",
-              igname: "SimonLP_yt",
-              role: "Website Developer"
-            }}
+          <PlayerSection
           />
         </section>
       </main>
