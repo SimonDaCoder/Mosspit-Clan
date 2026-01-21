@@ -1,7 +1,7 @@
 {
   "groups": [
     { "id": "staff", "label": "Team", "order": 1 },
-    { "id": "official", "label": "Offizielle", "order": 2 },
+    { "id": "official", "label": "Offizier", "order": 2 },
     { "id": "specialmember", "label": "''Besondere'' Bürger", "order": 3 },
     { "id": "member", "label": "Bürger", "order": 4 }
   ],
