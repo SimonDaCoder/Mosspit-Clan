@@ -1,140 +1,29 @@
 {
   "groups": [
-    {
-      "id": "staff",
-      "label": "Team",
-      "order": 1
-    },
-    {
-      "id": "official",
-      "label": "Offizielle",
-      "order": 2
-    },
-    {
-      "id": "specialmember",
-      "label": "''Besondere'' Bürger",
-      "order": 3
-    },
-    {
-      "id": "member",
-      "label": "Bürger",
-      "order": 4
-    }
+    { "id": "staff", "label": "Team", "order": 1 },
+    { "id": "official", "label": "Offizielle", "order": 2 },
+    { "id": "specialmember", "label": "''Besondere'' Bürger", "order": 3 },
+    { "id": "member", "label": "Bürger", "order": 4 }
   ],
   "players": [
-    {
-      "name": "Simon LP",
-      "igname": "SimonLP_yt",
-      "role": "Website Dev",
-      "group": "specialmember"
-    },
-    {
-      "name": "Allotox",
-      "igname": "Allotox",
-      "role": "Anführer",
-      "group": "staff"
-    },
-    {
-      "name": "Tatatuck",
-      "igname": "TatatuckRenegade",
-      "role": "Anführer",
-      "group": "staff"
-    },
-    {
-      "name": "Thanis747",
-      "igname": "Thanis747",
-      "role": "Anführer",
-      "group": "staff"
-    },
-    {
-      "name": "Beule TV",
-      "igname": "Beule_TV",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "Famigo13",
-      "igname": "Famigo13",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "Owny Stuck",
-      "igname": "Owny_Stuck",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "ConCrafter Fan",
-      "igname": "ConCrafter_Fan",
-      "role": "Stream Awards Gewinner",
-      "group": "specialmember"
-    },
-    {
-      "name": "GaloreRain39092",
-      "igname": "GaloreRain39092",
-      "role": "Anführer",
-      "group": "staff"
-    },
-    {
-      "name": "Sneakyone2229",
-      "igname": "Sneakyone2229",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "Wulf_l_",
-      "igname": "Wulf_l_",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "Laxbene",
-      "igname": "Laxbene",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "aGHGent",
-      "igname": "aGHGent",
-      "role": "Offizier",
-      "group": "official"
-    },
-    {
-      "name": "Quira44",
-      "igname": "Quira44",
-      "role": "Mitglied",
-      "group": "member"
-    },
-    {
-      "name": "Lvcky4me",
-      "igname": "Lvcky4me",
-      "role": "Mitglied",
-      "group": "member"
-    },
-    {
-      "name": "MP38102",
-      "igname": "MP38102",
-      "role": "Mitglied",
-      "group": "member"
-    },
-    {
-      "name": "sniffer_diamond",
-      "igname": "sniffer_diamond",
-      "role": "Mitglied",
-      "group": "member"
-    },
-    {
-      "name": "FailNews",
-      "igname": "FailNews",
-      "role": "Mitglied",
-      "group": "member"
-    },
-    {
-      "name": "FireAlaxo",
-      "igname": "FireAlaxo",
-      "role": "Mitglied",
-      "group": "member"
-    }
+    { "name": "Simon LP", "igname": "SimonLP_yt", "role": "Website Dev", "group": "specialmember" },
+    { "name": "Allotox", "igname": "Allotox", "role": "Anführer", "group": "staff" },
+    { "name": "Tatatuck", "igname": "TatatuckRenegade", "role": "Anführer", "group": "staff" },
+    { "name": "Thanis747", "igname": "Thanis747", "role": "Anführer", "group": "staff" },
+    { "name": "Beule TV", "igname": "Beule_TV", "role": "Offizier", "group": "official" },
+    { "name": "Famigo13", "igname": "Famigo13", "role": "Offizier", "group": "official" },
+    { "name": "Owny Stuck", "igname": "Owny_Stuck", "role": "Offizier", "group": "official" },
+    { "name": "ConCrafter Fan", "igname": "ConCrafter_Fan", "role": "Stream Awards Gewinner", "group": "specialmember" },
+    { "name": "GaloreRain39092", "igname": "GaloreRain39092", "role": "Anführer", "group": "staff" },
+    { "name": "Sneakyone2229", "igname": "Sneakyone2229", "role": "Offizier", "group": "official" },
+    { "name": "Wulf_l_", "igname": "Wulf_l_", "role": "Offizier", "group": "official" },
+    { "name": "Laxbene", "igname": "Laxbene", "role": "Offizier", "group": "official" },
+    { "name": "aGHGent", "igname": "aGHGent", "role": "Offizier", "group": "official" },
+    { "name": "Quira44", "igname": "Quira44", "role": "", "group": "member" },
+    { "name": "Lvcky4me", "igname": "Lvcky4me", "role": "", "group": "member" },
+    { "name": "MP38102", "igname": "MP38102", "role": "", "group": "member" },
+    { "name": "sniffer_diamond", "igname": "sniffer_diamond", "role": "", "group": "member" },
+    { "name": "FailNews", "igname": "FailNews", "role": "", "group": "member" },
+    { "name": "FireAlaxo", "igname": "FireAlaxo", "role": "", "group": "member" }
   ]
 }
