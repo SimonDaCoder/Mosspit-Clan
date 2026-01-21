@@ -6,9 +6,9 @@ import eventsData from "@/data/events.json";
 
 interface EventItem {
   name: string;
-  imageMain: string;
-  imageLeft: string;
-  imageRight: string;
+  image1: string;
+  image2: string;
+  image3: string;
   description: string;
 }
 
@@ -35,13 +35,13 @@ export const GalleryCarousel = () => {
 
         {/* links */}
         <div className="relative w-[22%] scale-105 -translate-y-12">
-          <GalleryImage src={events[left].imageMain} />
+          <GalleryImage src={events[left].image1} />
           <div className="absolute inset-0 bg-black/30" />
         </div>
 
         {/* center */}
         <div className="relative w-[40%] scale-110 z-10">
-          <GalleryImage src={events[center].imageMain} />
+          <GalleryImage src={events[center].image1} />
 
           <div className="absolute top-2 left-1/2 -translate-x-1/2 text-white font-bold text-lg z-20">
             {events[center].name}
@@ -49,12 +49,12 @@ export const GalleryCarousel = () => {
 
           {/* extra unten links */}
           <div className="absolute -bottom-14 -left-16 w-[45%] z-0">
-            <GalleryImage src={events[center].imageLeft} />
+            <GalleryImage src={events[center].image2} />
           </div>
 
           {/* extra unten rechts */}
           <div className="absolute -bottom-14 -right-16 w-[45%] z-0">
-            <GalleryImage src={events[center].imageRight} />
+            <GalleryImage src={events[center].image3} />
           </div>
         </div>
 
@@ -62,7 +62,7 @@ export const GalleryCarousel = () => {
 
         {/* rechts */}
         <div className="relative w-[22%] scale-105 -translate-y-12">
-          <GalleryImage src={events[right].imageMain} />
+          <GalleryImage src={events[right].image1} />
           <div className="absolute inset-0 bg-black/30" />
         </div>
 
