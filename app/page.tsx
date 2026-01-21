@@ -5,6 +5,8 @@ import { EventCard } from "../components/events/event-card";
 import eventsData from "../data/events.json";
 import { EventSection } from "../components/events/event-section";
 import { PlayerSection } from "@/components/Playercard/Playersection";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 export default function Home() {
   return (
