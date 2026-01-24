@@ -6,7 +6,7 @@
     { "id": "member", "label": "Bürger", "order": 4 }
   ],
   "players": [
-    { "name": "Simon LP", "igname": "SimonLP_yt", "role": "Website Dev", "group": "specialmember" },
+    { "name": "Simon LP", "igname": "SimonLP_yt", "role": "Website Dev / Youtube", "group": "specialmember" },
     { "name": "Allotox", "igname": "Allotox", "role": "Anführer", "group": "staff" },
     { "name": "Tatatuck", "igname": "TatatuckRenegade", "role": "Anführer", "group": "staff" },
     { "name": "Thanis747", "igname": "Thanis747", "role": "Anführer", "group": "staff" },
