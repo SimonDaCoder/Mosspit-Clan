@@ -45,24 +45,6 @@
     "link": ""
   },
   {
-    "name": "Only Nether",
-    "imageMain": "/images/7.jpg",
-    "image1": "/images/7.jpg",
-    "image2": "/images/7.jpg",
-    "image3": "/images/7.jpg",
-    "description": "Beschreibung von Event 7",
-    "link": ""
-  },
-  {
-    "name": "CA Würfel Bau",
-    "imageMain": "/images/8.png",
-    "image1": "/images/8.png",
-    "image2": "/images/8.png",
-    "image3": "/images/8.png",
-    "description": "Beschreibung von Event 8",
-    "link": ""
-  },
-  {
     "name": "End Event",
     "imageMain": "/images/9.png",
     "image1": "/images/9.png",
