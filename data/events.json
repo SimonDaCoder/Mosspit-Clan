@@ -10,19 +10,19 @@
   },
   {
     "name": "7 Tage Creative",
-    "imageMain": "/images/2.png",
-    "image1": "/images/2.png",
-    "image2": "/images/2.png",
-    "image3": "/images/2.png",
+    "imageMain": "/images/events/7DaysCreative/7DCmain.png",
+    "image1": "/images/events/7DaysCreative/7DCcity.png",
+    "image2": "/images/events/7DaysCreative/7DCcolloseum.png",
+    "image3": "/images/events/7DaysCreative/7DCstreet.png",
     "description": "Beschreibung von Event 2",
     "link": ""
   },
   {
     "name": "CraftAttack Cube Design",
-    "imageMain": "/images/3.png",
-    "image1": "/images/3.png",
-    "image2": "/images/3.png",
-    "image3": "/images/3.png",
+    "imageMain": "/images/events/CAcubes/CACtetrisshader.png",
+    "image1": "/images/events/CAcubes/CACtetris.png",
+    "image2": "/images/events/CAcubes/CACfull.png",
+    "image3": "/images/events/CAcubes/CACtetriscube.png",
     "description": "Beschreibung von Event 3",
     "link": ""
   },
