@@ -1,4 +1,4 @@
-.youtube-logo::after,
+.external-link::after,
 [class^="external-"]::after,
 [class*=" external-"]::after {
   display: inline-block;

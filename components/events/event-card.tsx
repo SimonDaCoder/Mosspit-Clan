@@ -1,7 +1,7 @@
 "use client";
 
 import eventsData from "@/data/events.json";
-import "./youtube-logo.css";
+import "./external-link.css";
 
 interface EventItem {
   name: string;
@@ -58,7 +58,7 @@ export const EventCard = ({ event }: { event: EventItem }) => {
           p-2 shadow-md
           hover:scale-110 transition-transform"
         >
-          <div className="youtube-logo"></div>
+          <div className="external-link"></div>
         </a>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
