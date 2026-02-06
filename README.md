@@ -1,36 +1,30 @@
-# 🌿 Mosspit - Der Minecraft Clan
+# Mosspit – Minecraft Clan
 
-Willkommen im offiziellen Repository der Mosspit-Website! Hier dreht sich alles um unseren Minecraft-Clan, Events und News. 🏰💚
+Repo für unsere Clan-Website.
 
-## 🌍 Website
-Die Website ist derzeit in Entwicklung. Schau bald wieder vorbei!  
-👉 **[Mosspit Website](https://mosspit.netlify.app)**
+Website: [https://mosspit.onrender.com](https://mosspit.onrender.com)
+Discord: [https://discord.gg/JpqFfeCd6W](https://discord.gg/JpqFfeCd6W)
 
-## 🎮 Über uns
-Mosspit ist eine Community von Minecraft-Spielern, die regelmäßig an **CastCrafter's Events** teilnehmen. Unser Fokus liegt auf Spaß, Zusammenarbeit und einem freundlichen Miteinander. Wir halten unsere Mitglieder auf dem Laufenden und tauschen uns über kommende Events aus.
+## Wer wir sind
 
-## 📌 Features der Website
-➖ Mitgliederliste mit aktiven Spielern  
-➖ Ankündigungen & Neuigkeiten  
-➖ Events & Wettbewerbe  
-➖ Möglichkeit zur Mitarbeit & Vorschläge  
+Eine kleine Minecraft-Community die regelmäßig bei CastCrafter-Events mitspielt und Moos mehr als alles liebt.
 
-*(Hinweis: Funktionen sind in Planung und noch nicht verfügbar.)*
+## Was es schon gibt
 
-## 💬 Trete unserer Community bei
-Verbinde dich mit uns auf Discord, um über den Clan, Server-Updates und Events auf dem Laufenden zu bleiben!  
-👉 **[Discord-Server beitreten](https://discord.gg/JpqFfeCd6W)**
+* Mitgliederliste
+* Events & Wettbewerbe
 
-## 🔧 Mitmachen & Anpassungen
-Du kannst gerne zur Entwicklung beitragen! Erstelle ein **Issue** oder einen **Pull Request**, wenn du Vorschläge hast oder Fehler findest.  
-Alternativ kannst du mich direkt auf Discord kontaktieren: **simon_lp**
+## In Arbeit
 
-## 📜 Lizenz
-Die Lizenz für dieses Projekt ist noch nicht festgelegt. Falls du Vorschläge hast, gerne melden!
+* Vorschläge/Feedback-System
+* API-Anbindung an den CC-Server (Hilfe willkommen)
+* Deine Ideen?
 
-## 📷 Design & Stil
-Die Website soll den **Minecraft-Stil** widerspiegeln, aber auch modern und übersichtlich bleiben. Falls du Design-Ideen hast, lass es uns wissen! 🎨
+## Mitmachen
 
----
+Einfach Issue oder Pull Request erstellen.
+Oder direkt schreiben: **simon_lp (Discord)**
 
-💚 Viel Spaß und wir freuen uns auf deine Unterstützung! 🚀
+## Lizenz
+
+MIT⚠️⚠️⚠️⚠️⚠️
