@@ -28,7 +28,7 @@
   },
   {
     "name": "Tilted World",
-    "imageMain": "/images/events/TiltedWorld/tiltedOutside.png",
+    "imageMain": "/images/events/TiltedWorld/TiltedOutside.png",
     "image1": "/images/events/TiltedWorld/TiltedCave.png",
     "image2": "/images/events/TiltedWorld/TiltedCaveCC.png",
     "image3": "/images/events/TiltedWorld/tiltedOutpost.png",
