@@ -27,4 +27,4 @@ Oder direkt schreiben: **simon_lp (Discord)**
 
 ## Lizenz
 
-MIT⚠️⚠️⚠️⚠️⚠️
+MIT License - siehe [License] (./LICENSE)
