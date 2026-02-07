@@ -1,54 +1,72 @@
 import React from "react";
 
-export const DiscordServerCard = () => {
+type ServerCardProps = {
+  name: string;
+  icon: string;
+  banner: string;
+  attributes?: string[];
+  type: "join" | "copy";
+  link: string;
+};
+
+export const DiscordServerCard = ({
+  name,
+  icon,
+  banner,
+  attributes = [],
+  type,
+  link,
+}: ServerCardProps) => {
+  const copy = () => {
+    navigator.clipboard.writeText(link);
+  };
+
   return (
     <div className="w-full max-w-sm rounded-2xl overflow-hidden shadow-lg bg-zinc-900 text-white">
 
-      {/* Header */}
-      <div className="h-24 bg-gradient-to-r from-cyan-500 to-sky-400" />
+      {/* Banner */}
+      <div
+        className="h-24 bg-cover bg-center"
+        style={{ backgroundImage: `url(${banner})` }}
+      />
 
-      {/* Content */}
       <div className="p-4 -mt-10">
-
         <div className="flex gap-4">
 
-          {/* Größeres, skalierendes Icon */}
+          {/* Icon */}
           <div className="w-20 sm:w-24 aspect-square shrink-0 rounded-2xl overflow-hidden border-4 border-zinc-900 bg-zinc-800">
-            <img
-              src="/server-icon.png"
-              alt="Server Icon"
-              className="w-full h-full object-cover"
-            />
+            <img src={icon} alt={name} className="w-full h-full object-cover" />
           </div>
 
-          {/* Textblock */}
+          {/* Text */}
           <div className="flex flex-col justify-center">
+            <h2 className="font-semibold text-lg leading-tight">{name}</h2>
 
-            <h2 className="font-semibold text-lg leading-tight">
-              Mosspit Discord Server
-            </h2>
-
-            {/* Attribute direkt darunter */}
-            <div className="flex gap-2 text-sm text-zinc-400 mt-2">
-              <span>Attribute 1</span>
-              <span>•</span>
-              <span>Attribute 2</span>
+            <div className="flex flex-wrap gap-2 text-sm text-zinc-400 mt-2">
+              {attributes.map((a, i) => (
+                <span key={i}>{a}</span>
+              ))}
             </div>
-
           </div>
         </div>
 
-        {/* Button */}
-        <button
-          className="
-            w-full mt-4 py-2.5
-            bg-emerald-600 hover:bg-emerald-500
-            rounded-lg font-semibold
-            transition-colors
-          "
-        >
-          Join
-        </button>
+        {/* Action */}
+        {type === "join" ? (
+          <a
+            href={link}
+            target="_blank"
+            className="block text-center w-full mt-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 rounded-lg font-semibold transition-colors"
+          >
+            Join
+          </a>
+        ) : (
+          <input
+            readOnly
+            value={link}
+            onClick={copy}
+            className="w-full mt-4 py-2.5 px-3 bg-zinc-800 rounded-lg text-sm cursor-pointer"
+          />
+        )}
       </div>
     </div>
   );

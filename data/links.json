@@ -4,7 +4,7 @@
     "icon": "/images/links/discord-moss-icon.png",
     "banner": "/images/links/discord-moss-banner.png",
     "attributes": ["Community", "Support", "Events"],
-    "button": "button",
+    "type": "join",
     "link": "https://discord.gg/mosspit"
   },
   {
@@ -12,7 +12,7 @@
     "icon": "/images/links/mcserver-icon.png",
     "banner": "/images/links/mcserver-banner.png",
     "attributes": ["1.21.10", "Survival", "Events"],
-    "button": "textarea",
+    "type": "copy",
     "link": "castcrafter.de"
   },
   {
@@ -20,7 +20,7 @@
     "icon": "/images/links/discord-cc-icon.png",
     "banner": "/images/links/discord-cc-banner.png",
     "attributes": ["Community", "Support", "Events"],
-    "button": "button",
+    "type": "join",
     "link": "https://discord.gg/craftattack"
   }
 ]
