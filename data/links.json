@@ -3,7 +3,7 @@
     "name": "Mosspit Discord Server",
     "icon": "/images/links/discord-moss-icon.png",
     "banner": "linear-gradient(90deg, #2b2636 0%, #3a334d 50%, #544e73 100%)",
-    "attributes": ["Moss", "Community", "Tritt Bei!"],
+    "attributes": ["Moss", "•", "Community", "•", "Tritt Bei!"],
     "type": "join",
     "link": "https://discord.gg/mosspit"
   },
@@ -11,7 +11,7 @@
     "name": "Castcrafter Minecraft Server",
     "icon": "/images/links/mcserver-icon.png",
     "banner": "linear-gradient(90deg, #0f2e2e 0%, #134141 50%, #0d5c5c 100%)",
-    "attributes": ["1.21.10", "Wartungsarbeiten"],
+    "attributes": ["1.21.10", "•", "Wartungsarbeiten"],
     "type": "copy",
     "link": "castcrafter.de"
   },
@@ -19,7 +19,7 @@
     "name": "Castcrafter Discord Server",
     "icon": "/images/links/discord-cc-icon.webp",
     "banner": "linear-gradient(90deg, #3a2a1c 0%, #4a3523 50%, #5c432b 100%)",
-    "attributes": ["Community", "Castcrafter", "Info"],
+    "attributes": ["Community", "•", "Castcrafter", "•", "Info"],
     "type": "join",
     "link": "https://discord.gg/craftattack"
   }
