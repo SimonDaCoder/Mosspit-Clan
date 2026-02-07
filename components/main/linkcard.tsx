@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+
 
 type ServerCardProps = {
   name: string;
@@ -9,7 +12,7 @@ type ServerCardProps = {
   link: string;
 };
 
-export const DiscordServerCard = ({
+export const LinkCard = ({
   name,
   icon,
   banner,

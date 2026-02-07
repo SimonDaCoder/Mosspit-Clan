@@ -1,5 +1,5 @@
 import React from "react";
-import { DiscordServerCard } from "./linkcard";
+import LinkList from "./linklist";
 
 const MainSection = () => {
   return (
