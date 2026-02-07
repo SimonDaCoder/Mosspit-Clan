@@ -13,7 +13,7 @@ import MainSection from "@/components/main/main-section";
 export default function Home() {
   return (
     <div
-      className="flex min-h-screen h-[300vh] flex-col bg-zinc-50 dark:bg-black font-sans costum-bg-pattern"
+      className="flex min-h-screen h-full flex-col bg-zinc-50 dark:bg-black font-sans costum-bg-pattern"
     >        
       <section className="w-full flex flex-col items-center" id="home">
         <Header />
