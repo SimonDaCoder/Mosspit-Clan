@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mosspit Discord Server",
+    "icon": "/images/links/discord-moss-icon.png",
+    "banner": "/images/links/discord-moss-banner.png",
+    "attributes": ["Community", "Support", "Events"],
+    "button": "button",
+    "link": "https://discord.gg/mosspit"
+  },
+  {
+    "name": "Castcrafter Minecraft Server",
+    "icon": "/images/links/mcserver-icon.png",
+    "banner": "/images/links/mcserver-banner.png",
+    "attributes": ["1.21.10", "Survival", "Events"],
+    "button": "textarea",
+    "link": "castcrafter.de"
+  },
+  {
+    "name": "Castcrafter Discord Server",
+    "icon": "/images/links/discord-cc-icon.png",
+    "banner": "/images/links/discord-cc-banner.png",
+    "attributes": ["Community", "Support", "Events"],
+    "button": "button",
+    "link": "https://discord.gg/craftattack"
+  }
+]
