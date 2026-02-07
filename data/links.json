@@ -2,24 +2,24 @@
   {
     "name": "Mosspit Discord Server",
     "icon": "/images/links/discord-moss-icon.png",
-    "banner": "linear-gradient(90deg, #10B981 0%, #059669 50%, #14B8A6 100%);",
-    "attributes": ["Community", "Support", "Events"],
+    "banner": "linear-gradient(90deg, #2b2636 0%, #3a334d 50%, #544e73 100%)",
+    "attributes": ["Moss", "Community", "Tritt Bei!"],
     "type": "join",
     "link": "https://discord.gg/mosspit"
   },
   {
     "name": "Castcrafter Minecraft Server",
     "icon": "/images/links/mcserver-icon.png",
-    "banner": "linear-gradient(90deg, #6366F1 0%, #8B5CF6 50%, #EC4899 100%);",
-    "attributes": ["1.21.10", "Survival", "Events"],
+    "banner": "linear-gradient(90deg, #0f2e2e 0%, #134141 50%, #0d5c5c 100%)",
+    "attributes": ["1.21.10", "Wartungsarbeiten"],
     "type": "copy",
     "link": "castcrafter.de"
   },
   {
     "name": "Castcrafter Discord Server",
     "icon": "/images/links/discord-cc-icon.webp",
-    "banner": "linear-gradient(90deg, #F97316 0%, #FACC15 50%, #EF4444 100%);",
-    "attributes": ["Community", "Support", "Events"],
+    "banner": "linear-gradient(90deg, #3a2a1c 0%, #4a3523 50%, #5c432b 100%)",
+    "attributes": ["Community", "Castcrafter", "Info"],
     "type": "join",
     "link": "https://discord.gg/craftattack"
   }
