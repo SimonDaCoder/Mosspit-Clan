@@ -18,7 +18,7 @@
   {
     "name": "Castcrafter Discord Server",
     "icon": "/images/links/discord-cc-icon.webp",
-    "banner": "/images/links/cc-banner.png",
+    "banner": "/images/links/discord-cc-banner.jpg",
     "attributes": ["Community", "Support", "Events"],
     "type": "join",
     "link": "https://discord.gg/craftattack"
