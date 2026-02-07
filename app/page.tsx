@@ -6,6 +6,8 @@ import eventsData from "../data/events.json";
 import { EventSection } from "../components/events/event-section";
 import { PlayerSection } from "@/components/Playercard/Playersection";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Main } from "next/document";
+import MainSection from "@/components/main/main-section";
 
 
 export default function Home() {
@@ -20,7 +22,7 @@ export default function Home() {
       <main className="flex flex-1 flex-col items-center justify-top px-20 text-center full-w py-10 gap-20">
 
         <section className="w-full" id="socials">
-
+          <MainSection />
         </section>
         <section className="w-full" id="events">
           <EventSection />
