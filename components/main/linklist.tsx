@@ -6,7 +6,7 @@ export default function List() {
   return (
     <div className="grid gap-6 md:grid-cols-3">
       {data.map((item, i) => (
-        <LinkCard key={i} {...item} />
+        <LinkCard key={i} {...item} type={item.type as "join" | "copy"} />
       ))}
     </div>
   );
