@@ -87,7 +87,7 @@ export const LinkCard = ({
               }
             `}
           >
-            {type === "join" ? "Join" : "Copy link"}
+            {type === "join" ? "Join" : <a>{link}</a> }
           </button>
         </div>
       </div>
