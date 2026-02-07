@@ -51,8 +51,8 @@ export const LinkCard = ({
       >
         {/* Banner */}
         <div
-          className="h-24 bg-cover bg-center"
-          style={{ backgroundImage: `url(${banner})` }}
+          className="h-20 bg-cover bg-center"
+          style={{ background: banner}}
         />
 
         <div className="p-4 -mt-10 space-y-4">
@@ -63,7 +63,7 @@ export const LinkCard = ({
             </div>
 
             {/* Text */}
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-center pt-2">
               <h2 className="font-semibold text-lg leading-tight">{name}</h2>
 
               <div className="flex flex-wrap gap-2 text-sm text-zinc-400 mt-2">
