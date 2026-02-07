@@ -63,8 +63,8 @@ export const LinkCard = ({
             </div>
 
             {/* Text */}
-            <div className="flex flex-col justify-center pt-2">
-              <h2 className="font-semibold text-lg leading-tight overflow-hidden text-ellipsis whitespace-nowrap">{name}</h2>
+            <div className="flex flex-col justify-center pt-3">
+              <h2 className="font-semibold text-lg leading-tight whitespace-nowrap">{name}</h2>
 
               <div className="flex flex-wrap gap-2 text-sm text-zinc-400 mt-2">
                 {attributes.map((a, i) => (
