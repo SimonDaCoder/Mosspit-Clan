@@ -1,22 +1,19 @@
-html,
-main {
-  scroll-behavior: smooth ! important;
-}
-
 .costum-bg-pattern {
-  background: radial-gradient(circle at left center, rgba(16, 185, 129, 0.3), rgba(16, 185, 129, 0.05) 70%, transparent 100%)
+  background: radial-gradient(
+    circle at left center,
+    rgba(16, 185, 129, 0.1), /* weniger stark */
+    rgba(16, 185, 129, 0.02) 70%,
+    transparent 100%
+  );
 }
 
 @media (prefers-color-scheme: dark) {
   .costum-bg-pattern {
-    background: radial-gradient(circle at left center, rgba(16, 185, 129, 0.3), rgba(16, 185, 129, 0.1) 70%, transparent 100%)
+    background: radial-gradient(
+      circle at left center,
+      rgba(16, 185, 129, 0.1),
+      rgba(16, 185, 129, 0.05) 70%,
+      transparent 100%
+    );
   }
-}
-
-section {
-  padding-top: 2rem;
-}
-
-section#home {
-  padding-top: 0;
 }
