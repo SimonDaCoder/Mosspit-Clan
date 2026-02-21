@@ -14,8 +14,8 @@
     "image1": "/images/events/7DaysCreative/7DCcity.png",
     "image2": "/images/events/7DaysCreative/7DCcolloseum.png",
     "image3": "/images/events/7DaysCreative/7DCstreet.png",
-    "description": "Beschreibung von Event 2",
-    "link": ""
+    "description": "Das Creative Event geht in die nächste Runde. Nach einem halben Jahr und vielen neuen Spielern auf dem Server starten wir erneut – diesmal größer und anspruchsvoller. Statt 24 Stunden habt ihr ganze 7 Tage Zeit, eure Ideen umzusetzen. Schematics sind nicht erlaubt – gefragt sind Kreativität, Können und echte Eigenleistung. Zusätzlich wird die Bauhöhe auf 1024 Blöcke erhöht, damit ihr maximale Freiheit beim Gestalten habt. Eine Woche. Keine Vorlagen. Nur euer Skill.",
+    "link": "https://youtu.be/we_QzyCti8w"
   },
   {
     "name": "CraftAttack Cube Design",
@@ -23,8 +23,8 @@
     "image1": "/images/events/CAcubes/CACtetris.png",
     "image2": "/images/events/CAcubes/CACfull.png",
     "image3": "/images/events/CAcubes/CACtetriscube.png",
-    "description": "Beschreibung von Event 3",
-    "link": ""
+    "description": "Das Streamer-Projekt CraftAttack 12 neigt sich dem Ende. Das Problem ist: Das Bau-Projekt von CastCrafter, ein Würfel, ist noch nicht fertig. In diesem Event habt ihr die Möglichkeit, einen Teil des Würfels zu bauen.",
+    "link": "https://youtube.com/@simon_lp"
   },
   {
     "name": "Tilted World",
@@ -33,51 +33,24 @@
     "image2": "/images/events/TiltedWorld/TiltedCaveCC.png",
     "image3": "/images/events/TiltedWorld/tiltedOutpost.png",
     "description": "In dem Tilted World Event findet ihr euch in einer Welt wieder, welche um 45 Grad gedreht ist. Bildet Allianzen, baut gedrehte Häuser und erkundet die Höhlen, in denen nichts mehr so ist wie sonst!",
-    "link": ""
+    "link": "https://youtu.be/vmdr_0_f6e8"
   },
   {
     "name": "48h Nether",
     "imageMain": "/images/events/48hNether/48hNscreeny.png",
-    "image1": "/images/",
+    "image1": "https://server.castcrafter.de/images/nether-event.png",
     "image2": "/images/",
     "image3": "/images/",
-    "description": "Beschreibung von Event 5",
-    "link": ""
+    "description": "Ihr seid für 48 Stunden im Nether eingesperrt. Es gibt nur diese Dimension – keine Overworld, kein End! Euch erwartet eine komplett neue World-Generation, vollgepackt mit unbekannten Strukturen, gefährlichen Landschaften und teilweise sogar neuen Mobs. Um euer Überleben zu sichern, könnt ihr euch auf die Suche nach Larry, einem neuen NPC, machen. Er bietet euch wichtige Items zum Handeln an, die euer Leben deutlich erleichtern könnten.",
+    "link": "https://youtu.be/K5kgVaS6xRY"
   },
   {
-    "name": "End Event",
+    "name": "One Block",
     "imageMain": "/images/9.png",
     "image1": "/images/9.png",
     "image2": "/images/9.png",
     "image3": "/images/9.png",
-    "description": "Beschreibung von Event 9",
-    "link": ""
-  },
-  {
-    "name": "Hardcore Event",
-    "imageMain": "/images/10.png",
-    "image1": "/images/10.png",
-    "image2": "/images/10.png",
-    "image3": "/images/10.png",
-    "description": "Beschreibung von Event 10",
-    "link": ""
-  },
-  {
-    "name": "Randomizer Welt",
-    "imageMain": "/images/11.png",
-    "image1": "/images/11.png",
-    "image2": "/images/11.png",
-    "image3": "/images/11.png",
-    "description": "Beim Block Roulette Event ist alles anders! Wenn du Blöcke abbaust oder Kreaturen besiegst, erhältst du zufällige Gegenstände anstelle der normalen Beute. Auch Truhen und andere Behälter halten Überraschungen für dich bereit. Mach dich bereit für unvorhersehbare Abenteuer!",
-    "link": ""
-  },
-  {
-    "name": "Wüsten Event",
-    "imageMain": "/images/12.png",
-    "image1": "/images/12.png",
-    "image2": "/images/12.png",
-    "image3": "/images/12.png",
-    "description": "Beschreibung von Event 12",
-    "link": ""
+    "description": "Ihr startet auf einem einzigen Block, der sich nach jedem Abbau erneuert und mit der Zeit durch Phasen immer abwechslungsreichere Blöcke, Ressourcen und Kreaturen hervorbringt. Baut eure Insel aus, erkundet die gefährlichen Weiten und meistert die Herausforderungen jeder Phase.",
+    "link": "server.castcrafter.de/oneblock-event.html"
   }
 ]
