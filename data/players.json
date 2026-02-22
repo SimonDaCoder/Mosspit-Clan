@@ -23,7 +23,7 @@
     { "name": "Lvcky4me", "igname": "Lvcky4me", "role": "", "group": "member" },
     { "name": "MP38102", "igname": "MP38102", "role": "", "group": "member" },
     { "name": "sniffer_diamond", "igname": "sniffer_diamond", "role": "", "group": "member" },
-    { "name": "FailNews", "igname": "FailNews", "role": "", "group": "member" },
+    { "name": "FailNews", "igname": "FailNews", "role": "Ausclaner", "group": "member" },
     { "name": "FireAlaxo", "igname": "FireAlaxo", "role": "", "group": "member" }
   ]
 }
