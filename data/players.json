@@ -2,7 +2,7 @@
   "groups": [
     { "id": "staff", "label": "Team", "order": 1 },
     { "id": "official", "label": "Offizier", "order": 2 },
-    { "id": "specialmember", "label": "''Besondere'' Bürger", "order": 3 },
+    { "id": "specialmember", "label": "\"Besondere\" Bürger", "order": 3 },
     { "id": "member", "label": "Bürger", "order": 4 }
   ],
   "players": [
@@ -13,7 +13,7 @@
     { "name": "Beule TV", "igname": "Beule_TV", "role": "Offizier", "group": "official" },
     { "name": "Famigo13", "igname": "Famigo13", "role": "Offizier", "group": "official" },
     { "name": "Owny Stuck", "igname": "Owny_Stuck", "role": "Offizier", "group": "official" },
-    { "name": "ConCrafter Fan", "igname": "ConCrafter_Fan", "role": "Stream Awards Gewinner", "group": "specialmember" },
+    { "name": "CastCrafter Fan", "igname": "CastCrafter_Fan", "role": "Stream Awards Gewinner", "group": "specialmember" },
     { "name": "GaloreRain39092", "igname": "GaloreRain39092", "role": "Anführer", "group": "staff" },
     { "name": "Sneakyone2229", "igname": "Sneakyone2229", "role": "Offizier", "group": "official" },
     { "name": "Wulf_l_", "igname": "Wulf_l_", "role": "Offizier", "group": "official" },
@@ -23,7 +23,7 @@
     { "name": "Lvcky4me", "igname": "Lvcky4me", "role": "", "group": "member" },
     { "name": "MP38102", "igname": "MP38102", "role": "", "group": "member" },
     { "name": "sniffer_diamond", "igname": "sniffer_diamond", "role": "", "group": "member" },
-    { "name": "FailNews", "igname": "FailNews", "role": "Ausclaner", "group": "member" },
+    { "name": "FailNews", "igname": "FailNews", "role": "Offizier", "group": "official" },
     { "name": "FireAlaxo", "igname": "FireAlaxo", "role": "", "group": "member" }
   ]
 }

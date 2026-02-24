@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { Copy } from "./copy";
 
 type ServerCardProps = {
   name: string;
@@ -33,9 +34,9 @@ export const LinkCard = ({
   };
 
   return (
-    <div className="relative w-full max-w-sm mx-auto rounded-2xl p-[1px]">
+    <div className="relative w-full max-w-sm mx-auto rounded-2xl p-px">
       {/* gradient border bleibt */}
-      <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-emerald-400/40 via-emerald-300/5 to-transparent" />
+      <div className="absolute inset-0 rounded-2xl bg-linear-to-bl from-emerald-400/40 via-emerald-300/5 to-transparent" />
 
       {/* card */}
       <div
@@ -90,7 +91,7 @@ export const LinkCard = ({
           >
             {type === "join"
               ? "Join"
-              : <><img src="/images/copy-light.png" alt="copy" className="w-4 h-4 inline mr-2" />{link}</>}
+              : <><Copy alt="copy" className="w-4 h-4 inline mr-2 fill-black dark:fill-white" />{link}</>}
           </button>
         </div>
       </div>

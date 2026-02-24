@@ -4,31 +4,25 @@ import { PlayerCard } from "./Playercard";
 export const PlayerSection = () => {
   const { players, groups } = data;
 
-  const sortedGroups = [...groups].sort(
-    (a, b) => a.order - b.order
-  );
+  const sortedGroups = [...groups].sort((a, b) => a.order - b.order);
 
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 px-4 sm:px-0">
       {sortedGroups.map((group) => {
-        const groupPlayers = players.filter(
-          (p) => p.group === group.id
-        );
+        const groupPlayers = players.filter((p) => p.group === group.id);
 
         if (groupPlayers.length === 0) return null;
 
         return (
           <div key={group.id} className="flex flex-col gap-4">
-            <h2 className="text-xl font-semibold text-emerald-400">
+            <h2 className="text-lg sm:text-xl font-semibold text-emerald-400">
               {group.label}
             </h2>
 
-            <div className="flex flex-wrap gap-4 justify-center">
+            {/* column on phones, row+wrap on sm+ */}
+            <div className="flex flex-col sm:flex-row sm:flex-wrap w-full max-w-6xl mx-auto gap-8 md:gap-4 justify-center">
               {groupPlayers.map((player) => (
-                <PlayerCard
-                  key={player.igname}
-                  player={player}
-                />
+                <PlayerCard key={player.igname} player={player} />
               ))}
             </div>
           </div>

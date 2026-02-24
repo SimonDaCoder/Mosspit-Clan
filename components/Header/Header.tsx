@@ -1,136 +1,123 @@
 "use client";
-import "./Header.css";
 
-export default function Header() {
+import data from "@/data/navigation.json";
+import { useState } from "react";
+import * as Icons from "lucide-react";
+
+interface NavItem {
+  name: string;
+  href: string;
+  icon: string;
+}
+
+interface HeaderProps {
+  onImpressumClick?: () => void;
+}
+
+export default function Header({ onImpressumClick }: HeaderProps) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const linkBase =
+    "relative inline-flex items-center w-full sm:w-auto sm:max-w-[70px] h-[50px] " +
+    "rounded-[8px] overflow-hidden text-white no-underline " +
+    "transition-[max-width] duration-300 ease-in-out sm:justify-center " +
+    "sm:hover:max-w-max sm:focus:max-w-max group gap-3 sm:gap-0 whitespace-nowrap " +
+    "px-8";
+
+  const iconWrapper =
+    "w-5 h-5 text-white flex-shrink-0 icon " +
+    "sm:absolute sm:left-10 sm:top-1/2 sm:-translate-y-1/2";
+
+  const title =
+    "text-black dark:text-white text-left " +
+    "sm:pl-[calc(80px+1rem)] " +
+    "sm:transform sm:translate-x-full sm:transition-transform sm:duration-200 sm:ease-in sm:opacity-0 " +
+    "sm:group-hover:translate-x-0 sm:group-hover:opacity-100";
+
+  const closeMenu = () => setMenuOpen(false);
+
   return (
-    <div className="menu w-[60%] flex justify-center items-center gap-8 p-4 bg-white/90">
-      <a href="#home" className="link">
-        <span className="link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none" />
+    <header className="w-full flex justify-center items-start relative">
+      {/* mobile toggle button */}
+      <button
+        className="sm:hidden absolute top-2 left-2 p-2 text-white z-20"
+        aria-label="Toggle navigation"
+        onClick={() => setMenuOpen((o) => !o)}
+      >
+        {menuOpen ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
             <path
-              d="M213.3815,109.61945,133.376,36.88436a8,8,0,0,0-10.76339.00036l-79.9945,72.73477A8,8,0,0,0,40,115.53855V208a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V115.53887A8,8,0,0,0,213.3815,109.61945Z"
-              fill="none"
-              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="16"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
             />
           </svg>
-        </span>
-        <span className="link-title">Home</span>
-      </a>
-
-      <a href="#socials" className="link">
-        <span className="link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none" />
-            <polyline
-              points="76.201 132.201 152.201 40.201 216 40 215.799 103.799 123.799 179.799"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="100"
-              y1="156"
-              x2="160"
-              y2="96"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
             <path
-              d="M82.14214,197.45584,52.201,227.397a8,8,0,0,1-11.31371,0L28.603,215.11268a8,8,0,0,1,0-11.31371l29.94113-29.94112a8,8,0,0,0,0-11.31371L37.65685,141.65685a8,8,0,0,1,0-11.3137l12.6863-12.6863a8,8,0,0,1,11.3137,0l76.6863,76.6863a8,8,0,0,1,0,11.3137l-12.6863,12.6863a8,8,0,0,1-11.3137,0L93.45584,197.45584A8,8,0,0,0,82.14214,197.45584Z"
-              fill="none"
-              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="16"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-        </span>
-        <span className="link-title">Games</span>
-      </a>
+        )}
+      </button>
 
-      <a href="#events" className="link">
-        <span className="link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none" />
-            <path
-              d="M45.42853,176.99811A95.95978,95.95978,0,1,1,79.00228,210.5717l.00023-.001L45.84594,220.044a8,8,0,0,1-9.89-9.89l9.47331-33.15657Z"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line x1="96" y1="112" x2="160" y2="112" stroke="currentColor" strokeWidth="16" />
-            <line x1="96" y1="144" x2="160" y2="144" stroke="currentColor" strokeWidth="16" />
-          </svg>
-        </span>
-        <span className="link-title">Chat</span>
-      </a>
+      {/* navigation */}
+      <nav
+        className={`${menuOpen ? "block" : "hidden"} w-full sm:flex sm:justify-center`}
+      >
+        <div className="w-full sm:w-[60%] mx-auto flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 p-4 bg-zinc-200/50 dark:bg-zinc-800/50 backdrop-blur-xl relative rounded-2xl shadow-lg mt-12 sm:mt-2">
+          {data.map((item: NavItem, idx: number) => {
+            const Icon = Icons[item.icon as keyof typeof Icons] as React.FC<{ className?: string }>;
 
-      <a href="#members" className="link">
-        <span className="link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none" />
-            <circle
-              cx="116"
-              cy="116"
-              r="84"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="175.39356"
-              y1="175.40039"
-              x2="223.99414"
-              y2="224.00098"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </svg>
-        </span>
-        <span className="link-title">Search</span>
-      </a>
-
-      <a href="#" className="link">
-        <span className="link-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none" />
-            <circle
-              cx="128"
-              cy="96"
-              r="64"
-              fill="none"
-              stroke="currentColor"
-              strokeMiterlimit="10"
-              strokeWidth="16"
-            />
-            <path
-              d="M30.989,215.99064a112.03731,112.03731,0,0,1,194.02311.002"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </svg>
-        </span>
-        <span className="link-title">Profile</span>
-      </a>
-    </div>
+            return (
+              <a
+                key={item.href || idx}
+                href={item.href}
+                className={linkBase}
+                onClick={closeMenu}
+              >
+                <span className="absolute inset-0 rounded-lg bg-[#eee] dark:bg-[#111] transform translate-x-full transition-transform duration-200 ease-in sm:group-hover:translate-x-0 sm:group-focus:translate-x-0 -z-10" />
+                <span className={`${iconWrapper} [&_svg]:fill-current`}>
+                  {Icon ? <Icon className="w-full h-full" /> : null}
+                </span>
+                <span className={title}>{item.name}</span>
+              </a>
+            );
+          })}
+          
+          {/* Impressum Button */}
+          <button
+            onClick={() => {
+              onImpressumClick?.();
+              closeMenu();
+            }}
+            className={linkBase}
+            aria-label="Open Impressum"
+          >
+            <span className="absolute inset-0 rounded-lg bg-[#eee] dark:bg-[#111] transform translate-x-full transition-transform duration-200 ease-in sm:group-hover:translate-x-0 sm:group-focus:translate-x-0 -z-10" />
+            <span className={`${iconWrapper} [&_svg]:fill-current`}>
+              <Icons.Scale className="w-full h-full" />
+            </span>
+            <span className={title}>Impressum</span>
+          </button>
+        </div>
+      </nav>
+    </header>
   );
 }

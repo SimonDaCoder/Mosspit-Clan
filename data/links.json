@@ -9,9 +9,9 @@
   },
   {
     "name": "Castcrafter Minecraft Server",
-    "icon": "/images/links/mcserver-icon.png",
+    "icon": "/images/links/discord-cc-icon.webp",
     "banner": "linear-gradient(90deg, #0f2e2e 0%, #134141 50%, #0d5c5c 100%)",
-    "attributes": ["1.21.10", "•", "Wartungsarbeiten"],
+    "attributes": ["1.21.11", "•", "OneBlock Event"],
     "type": "copy",
     "link": "castcrafter.de"
   },
