@@ -2,6 +2,7 @@
 
 import eventsData from "@/data/events.json";
 import "./external-link.css";
+import * as Icons from "lucide-react";
 
 interface EventItem {
   name: string;
@@ -33,14 +34,14 @@ export const EventCard = ({ event }: { event: EventItem }) => {
   const galleryImages = [event.image1, event.image2, event.image3];
 
   const renderImage = (src?: string, alt?: string) => (
-    <div className="relative overflow-hidden rounded-lg aspect-[16/9] bg-zinc-300 dark:bg-zinc-700 shadow-[0_0_4px_0_rgba(0,0,0,0.4)]">
+    <div className="relative overflow-hidden rounded-lg aspect-video bg-zinc-300 dark:bg-zinc-700 shadow-[0_0_4px_0_rgba(0,0,0,0.4)]">
       <SafeImage src={src} alt={alt} />
     </div>
   );
 
   return (
-    <div className="relative mx-auto max-w-5xl rounded-2xl p-[1px]">
-      <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-emerald-400/60 via-emerald-300/10 to-transparent" />
+    <div className="relative mx-auto max-w-5xl rounded-2xl p-px">
+      <div className="absolute inset-0 rounded-2xl bg-linear-to-bl from-emerald-400/60 via-emerald-300/10 to-transparent" />
 
       <div
         className="relative rounded-2xl bg-white/90 p-4 shadow-md backdrop-blur-sm
@@ -58,7 +59,9 @@ export const EventCard = ({ event }: { event: EventItem }) => {
           p-2 shadow-md
           hover:scale-110 transition-transform"
         >
-          <div className="external-link"></div>
+          <div>
+            <Icons.MoveUpRight name="external-link" size={24} className="text-zinc-800 dark:text-zinc-200" />
+          </div>
         </a>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

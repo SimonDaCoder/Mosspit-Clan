@@ -7,12 +7,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --icon-colour: #000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #222222;
     --foreground: #dddddd;
+    --icon-colour: #fff;
   }
 }
 
@@ -20,4 +22,24 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.icon,
+svg {
+  color: var(--icon-colour);
+  fill: currentColor;
+}
+
+.icon-img {
+  filter: invert(0);
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon-img {
+    filter: invert(1);
+  }
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Home",
+    "href": "/#home",
+    "icon": "House"
+  },
+  {
+    "name": "Events",
+    "href": "/#events",
+    "icon": "Calendar"
+  },
+  {
+    "name": "Mitglieder",
+    "href": "/#members",
+    "icon": "UsersRound"
+  }
+]
